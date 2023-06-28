@@ -470,7 +470,7 @@ input_heatmap=as.matrix(final_wilcox[1:100,1:8])
 
 Create a `colorbar` vector.
 ```{r}
-colorbar <- c("green","green","orange","orange","green","green","orange","orange")
+colorbar <- c("green","orange","green","green","orange","orange", "green", "orange")
 ```
 
 Compute the heatmaps.
